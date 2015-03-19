@@ -3,4 +3,4 @@ projecteuler
 
 Will create an I/O program used to go through successful project euler calculations.
 
-Utilizes IOSkeleton.cs.
+Utilizes SimpleSkeleton.cs.
