@@ -1,1 +1,2 @@
 c:\users\andre_000\dev\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe.config
+C:\Users\andre_000\OneDrive\dev\projecteuler\ProjectEuler\bin\Debug\ProjectEuler.exe.config
