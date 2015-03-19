@@ -1,8 +1,3 @@
- 
-// csc /out:EulersLearner.exe /reference:FirstLibrary.DLL ProjectEuler.cs
-
-// By Andrew Ladd
-
 // A program that showcases solved problems from ProjectEuler.net.
 
 using System;
@@ -10,11 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HelperFiles;
+using IOSkeleton;
 
 public class ProjectEuler
 {
-
+    /*Problem logic*/
+    
+    //"Multiples of 3 and 5"
     static void Problem1()
     {
         Console.Clear();
@@ -76,13 +73,15 @@ public class ProjectEuler
 
         Console.ReadKey();
     }
-
+    
+    //""
     static void Problem2()
     {
         Console.Clear();
         Console.ReadKey();
     }
-
+    
+    //""
     static void Problem3()
     {
         Console.Clear();
@@ -90,9 +89,11 @@ public class ProjectEuler
     }
 
 
+    
+    //Program input/output
     public static void Main(string[] args)
     {
-            //TODO: Build using G-IO-S
+            //TODO: Build using SS
             string name = "Project Euler Problems";
             string[] options = {"Problem 1", "Problem 2", "Problem 3"};
             string prompt = ("What project do you wish to view? ");
