@@ -111,45 +111,5 @@ public class IOSkeleton
             }
         } while (!optRight);
     }
-
-
-
-    static void Main( )
-    {
-        string[] options = {"Problem 1", "Problem 2", "Problem 3"};
-        string prompt = ("Ask me about which problem: ");
-        int choice;
-
-        IOSkeleton gen = new IOSkeleton("ProjectEuler", options, prompt);
-        gen.Start();
-
-        bool programLoop = true;
-
-        do
-        {
-            gen.CreateMainMenu(out choice);
-
-            switch (choice)
-            {
-            case 1:
-                Console.WriteLine("This is where this method will go");
-                break;
-            case 2:
-                Console.WriteLine("This is where this method will go");
-                break;
-            case 3:
-                Console.WriteLine("This is where this method will go");
-                break;
-            case 4:
-                gen.ExitSequence(out programLoop);
-                break;
-            default:
-                break;
-            }
-        } while(programLoop);
-
-
-
-    }
 }   
 

@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problems\One.cs" />
+    <Compile Include="Problems\Three.cs" />
+    <Compile Include="Problems\Two.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProjectEuler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="simpleskeleton.cs" />
   </ItemGroup>
