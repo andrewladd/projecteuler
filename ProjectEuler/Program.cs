@@ -40,7 +40,7 @@ namespace ProjectEuler
             do
             {
                 gen.CreateMainMenu(out input);
-
+                Console.Clear();
                 switch (input)
                 {
                     case 1:
@@ -48,10 +48,12 @@ namespace ProjectEuler
                         one.Run();
                         break;
                     case 2:
-                        Problem2();
+                        var two = new Two();
+                        two.Run();
                         break;
                     case 3:
-                        Problem3();
+                        var three = new Three();
+                        three.Run();
                         break;
                     case 4:
                         gen.ExitSequence(out programLoop);
